@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35431.28
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VehicleStatus.Server", "VehicleStatus.Server\VehicleStatus.Server.csproj", "{7F53E344-C45C-4BDE-83B0-FC0EFA6157CF}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "vehiclestatus.client", "vehiclestatus.client\vehiclestatus.client.esproj", "{5BE81476-B138-4C21-A6D9-F7600845F81E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7F53E344-C45C-4BDE-83B0-FC0EFA6157CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F53E344-C45C-4BDE-83B0-FC0EFA6157CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F53E344-C45C-4BDE-83B0-FC0EFA6157CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F53E344-C45C-4BDE-83B0-FC0EFA6157CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BE81476-B138-4C21-A6D9-F7600845F81E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BE81476-B138-4C21-A6D9-F7600845F81E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BE81476-B138-4C21-A6D9-F7600845F81E}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{5BE81476-B138-4C21-A6D9-F7600845F81E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BE81476-B138-4C21-A6D9-F7600845F81E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BE81476-B138-4C21-A6D9-F7600845F81E}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {585D8326-FF8F-4D3E-9A33-61D3419A761D}
+	EndGlobalSection
+EndGlobal

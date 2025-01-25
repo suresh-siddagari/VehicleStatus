@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\VehicleStatus.Server.props" />
+</Project>
