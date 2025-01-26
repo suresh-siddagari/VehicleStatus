@@ -1,5 +1,6 @@
 import { HttpClient } from '@angular/common/http';
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, signal } from '@angular/core';
+import { interval, Observable, timer } from 'rxjs';
 
 interface WeatherForecast {
 	date: string;
@@ -17,6 +18,7 @@ export class AppComponent implements OnInit {
 	public forecasts: WeatherForecast[] = [];
 	public vehicles: any = [];
 
+	public customerFilter: string = '';
 	constructor(private http: HttpClient) {}
 
 	ngOnInit() {
@@ -36,14 +38,25 @@ export class AppComponent implements OnInit {
 	}
 
 	getVehicles() {
-		this.http.get<any[]>('/vehicle').subscribe(
-			(result) => {
-				this.vehicles = result;
-			},
-			(error) => {
-				console.error(error);
-			}
-		);
+		// call the API to get the vehicles for every 1 minute
+		interval(1000).subscribe(() => {
+			this.http.get<any[]>('/vehicle').subscribe(
+				(result) => {
+					this.vehicles = result;
+				},
+				(error) => {
+					console.error(error);
+				}
+			);
+		});
+	}
+
+	//start vehicle ping
+	startPing() {
+		this.http.get<any[]>('/vehicleping').subscribe();
+	}
+	filterTextChange(event: any) {
+		console.log(event.target.value);
 	}
 
 	title = 'vehiclestatus.client';

@@ -9,25 +9,7 @@
 	>
 </p>
 
-<table *ngIf="forecasts">
-	<thead>
-		<tr>
-			<th>Date</th>
-			<th>Temp. (C)</th>
-			<th>Temp. (F)</th>
-			<th>Summary</th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr *ngFor="let forecast of forecasts">
-			<td>{{ forecast.date }}</td>
-			<td>{{ forecast.temperatureC }}</td>
-			<td>{{ forecast.temperatureF }}</td>
-			<td>{{ forecast.summary }}</td>
-		</tr>
-	</tbody>
-</table>
-
+<input id="customerfilter" [(ngModel)]="customerFilter" onchange="filterTextChange($event)" />
 <!-- show vehicles-->
 <h1 id="tableLabel">Vehicles</h1>
 
@@ -45,9 +27,11 @@
 		<tr *ngFor="let vehicle of vehicles">
 			<td>{{ vehicle.vehicleId }}</td>
 			<td>{{ vehicle.regNo }}</td>
-			<td>{{ vehicle.status }}</td>
+			<td>{{ vehicle.connectionStatus }}</td>
 			<td>{{ vehicle.customerName }}</td>
 			<td>{{ vehicle.customerAddress }}</td>
 		</tr>
 	</tbody>
 </table>
+
+<button (click)="startPing()">Start Vehicle Ping Simulation</button>

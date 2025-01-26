@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\GitRepos\\Suresh\\VehicleStatus\\VehicleStatus.Server\\VehicleStatus.Server.csproj": {}
+    "d:\\GitRepos\\Suresh\\VehicleStatus\\VehicleStatus.Server\\VehicleStatus.Server.csproj": {}
   },
   "projects": {
-    "D:\\GitRepos\\Suresh\\VehicleStatus\\VehicleStatus.Server\\VehicleStatus.Server.csproj": {
+    "d:\\GitRepos\\Suresh\\VehicleStatus\\VehicleStatus.Server\\VehicleStatus.Server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GitRepos\\Suresh\\VehicleStatus\\VehicleStatus.Server\\VehicleStatus.Server.csproj",
+        "projectUniqueName": "d:\\GitRepos\\Suresh\\VehicleStatus\\VehicleStatus.Server\\VehicleStatus.Server.csproj",
         "projectName": "VehicleStatus.Server",
-        "projectPath": "D:\\GitRepos\\Suresh\\VehicleStatus\\VehicleStatus.Server\\VehicleStatus.Server.csproj",
+        "projectPath": "d:\\GitRepos\\Suresh\\VehicleStatus\\VehicleStatus.Server\\VehicleStatus.Server.csproj",
         "packagesPath": "C:\\Users\\sidsur01\\.nuget\\packages\\",
-        "outputPath": "D:\\GitRepos\\Suresh\\VehicleStatus\\VehicleStatus.Server\\obj\\",
+        "outputPath": "d:\\GitRepos\\Suresh\\VehicleStatus\\VehicleStatus.Server\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\sidsur01\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -52,6 +52,14 @@
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.6.2, )"
+            },
+            "System.Reactive": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "System.Reactive.Linq": {
+              "target": "Package",
+              "version": "[6.0.1, )"
             }
           },
           "imports": [

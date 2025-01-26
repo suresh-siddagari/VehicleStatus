@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using VehicleStatus.Server.Interfaces;
 using VehicleStatus.Server.Models;
 
 namespace VehicleStatus.Server.Controllers

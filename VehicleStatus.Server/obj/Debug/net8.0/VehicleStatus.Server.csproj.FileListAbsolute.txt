@@ -34,3 +34,5 @@ D:\GitRepos\Suresh\VehicleStatus\VehicleStatus.Server\obj\Debug\net8.0\VehicleSt
 D:\GitRepos\Suresh\VehicleStatus\VehicleStatus.Server\obj\Debug\net8.0\VehicleStatus.Server.genruntimeconfig.cache
 D:\GitRepos\Suresh\VehicleStatus\VehicleStatus.Server\obj\Debug\net8.0\ref\VehicleStatus.Server.dll
 D:\GitRepos\Suresh\VehicleStatus\VehicleStatus.Server\obj\Debug\net8.0\VehicleStatus.Server.sourcelink.json
+D:\GitRepos\Suresh\VehicleStatus\VehicleStatus.Server\bin\Debug\net8.0\System.Reactive.dll
+D:\GitRepos\Suresh\VehicleStatus\VehicleStatus.Server\bin\Debug\net8.0\System.Reactive.Linq.dll
