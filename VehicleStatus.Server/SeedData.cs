@@ -10,7 +10,7 @@ namespace VehicleStatus.Server
             new Customer
             {
                 CustomerId = 1,
-                Name = "Super Man",
+                Name = "SA Redivisioning",
                 Address = "nickelgränd 10",
                 Vehicles = new List<Vehicle>
                 {
@@ -24,13 +24,13 @@ namespace VehicleStatus.Server
                     {
                         VehicleId = 2,
                         RegNo = "DEF456",
-                        ConnectionStatus = "Disconnected"
+                        ConnectionStatus = ""
                     }
                 }
             },
             new Customer{
                 CustomerId = 2,
-                Name = "Spider Man",
+                Name = "Vällingby Bageri",
                 Address = "nickelgränd 11",
                 Vehicles = new List<Vehicle>
                 {
@@ -44,8 +44,52 @@ namespace VehicleStatus.Server
                     {
                         VehicleId = 4,
                         RegNo = "JKL012",
-                        ConnectionStatus = "Disconnected"
+                        ConnectionStatus = ""
+                    }, 
+                    new Vehicle
+                    {
+                        VehicleId = 5,
+                        RegNo = "MNO345",
+                        ConnectionStatus = ""
+                    },
+                    new Vehicle
+                    {
+                        VehicleId = 6,
+                        RegNo = "PQR678",
+                        ConnectionStatus = "Connected"
+                    }, 
+                    new Vehicle
+                    {
+                        VehicleId = 7,
+                        RegNo = "STU901",
+                        ConnectionStatus = ""
                     }
+                }
+            }, 
+            new Customer{
+                CustomerId = 3,
+                Name = "Kista Galleria",
+                Address = "nickelgränd 12",
+                Vehicles = new List<Vehicle>
+                {
+                    new Vehicle
+                    {
+                        VehicleId = 8,
+                        RegNo = "VWX234",
+                        ConnectionStatus = "Connected"
+                    },
+                    new Vehicle
+                    {
+                        VehicleId = 9,
+                        RegNo = "YZA567",
+                        ConnectionStatus = ""
+                    }, 
+                    new Vehicle
+                    {
+                        VehicleId = 10,
+                        RegNo = "BCD890",
+                        ConnectionStatus = "Connected"
+                    },
                 }
             }
         };

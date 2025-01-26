@@ -3,7 +3,7 @@
 "ServerUrl": "https://localhost:4200",
 "RedirectUrl": "",
 "LaunchCommand": "npm start",
-"WorkingDirectory": "d:\\GitRepos\\Suresh\\VehicleStatus\\VehicleStatus.Server\\..\\vehiclestatus.client",
+"WorkingDirectory": "D:\\GitRepos\\Suresh\\VehicleStatus\\VehicleStatus.Server\\..\\vehiclestatus.client",
 "MaxTimeoutInSeconds": "120",
 "KeepRunning": "false"
 }

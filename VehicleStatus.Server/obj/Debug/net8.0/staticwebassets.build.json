@@ -1,20 +1,20 @@
 {
   "Version": 1,
-  "Hash": "s6th/ep0nK9NwUx2rM9ymf92wT6d5FXo0BNYJKib0kM=",
+  "Hash": "ENg5/DpsmnSo+fjs0E8NkvatQo4Mo6jIq498qwHynrE=",
   "Source": "VehicleStatus.Server",
   "BasePath": "_content/VehicleStatus.Server",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [
     {
-      "Identity": "d:\\GitRepos\\Suresh\\VehicleStatus\\vehiclestatus.client\\vehiclestatus.client.esproj",
+      "Identity": "D:\\GitRepos\\Suresh\\VehicleStatus\\vehiclestatus.client\\vehiclestatus.client.esproj",
       "Version": 2,
       "Source": "vehiclestatus.client",
       "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",
-      "AdditionalPublishProperties": "",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
       "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained",
       "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
-      "AdditionalBuildProperties": "",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
       "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained"
     }
   ],

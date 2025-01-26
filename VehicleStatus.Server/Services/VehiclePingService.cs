@@ -22,7 +22,7 @@ namespace VehicleStatus.Server.Services
             var vehicles = _vehicleService.GetVehiclesWithCustomer();
             foreach (var vehicle in vehicles)
             {
-                Observable.Interval(TimeSpan.FromSeconds(5))
+                Observable.Interval(TimeSpan.FromMinutes(1))
                     .Subscribe(x =>
                     {
                         //get seeded data

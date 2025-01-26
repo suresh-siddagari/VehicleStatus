@@ -4,6 +4,7 @@
 
 <div class="actions">
 	<input id="customerfilter" [(ngModel)]="customerFilter" placeholder="enter customer name" />
+	<p>Vehicel status updated at: {{ lastUpdated | date : 'medium' }}</p>
 	<button (click)="startPing()">Start Vehicle Ping Simulation</button>
 </div>
 

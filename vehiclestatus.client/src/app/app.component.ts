@@ -1,6 +1,6 @@
 import { HttpClient } from '@angular/common/http';
-import { Component, OnInit, signal } from '@angular/core';
-import { interval, Observable, timer } from 'rxjs';
+import { Component, OnInit } from '@angular/core';
+import { interval } from 'rxjs';
 import { CustomerVehicle } from '../models/ResponseModel';
 
 @Component({
@@ -12,6 +12,8 @@ export class AppComponent implements OnInit {
 	public filteredVehicles: CustomerVehicle[] = [];
 
 	public customerFilter: string = '';
+
+	public lastUpdated: Date = new Date();
 	constructor(private http: HttpClient) {}
 
 	ngOnInit() {
@@ -21,6 +23,9 @@ export class AppComponent implements OnInit {
 	getVehicles() {
 		// call the API to get the vehicles for every 1 minute
 		interval(10000).subscribe(() => {
+			//last updated time
+			this.lastUpdated = new Date();
+
 			this.http.get<any[]>('/vehicle').subscribe(
 				(result) => {
 					const vehicles = result;
@@ -45,5 +50,5 @@ export class AppComponent implements OnInit {
 		this.http.get<any[]>('/vehicleping').subscribe();
 	}
 
-	title = 'vehiclestatus.client';
+
 }
