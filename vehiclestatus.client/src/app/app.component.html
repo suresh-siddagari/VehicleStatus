@@ -1,19 +1,16 @@
-﻿<h1 id="tableLabel">Weather forecast</h1>
+﻿<h1 id="tableLabel">Customer Vehicle Status</h1>
 
-<p>This component demonstrates fetching data from the server.</p>
+<p>Show status of the vehicle for every minute.</p>
 
-<p *ngIf="!forecasts">
-	<em
-		>Loading... Please refresh once the ASP.NET backend has started. See
-		<a href="https://aka.ms/jspsintegrationangular">https://aka.ms/jspsintegrationangular</a> for more details.</em
-	>
-</p>
+<div class="actions">
+	<input id="customerfilter" [(ngModel)]="customerFilter" placeholder="enter customer name" />
+	<button (click)="startPing()">Start Vehicle Ping Simulation</button>
+</div>
 
-<input id="customerfilter" [(ngModel)]="customerFilter" onchange="filterTextChange($event)" />
 <!-- show vehicles-->
 <h1 id="tableLabel">Vehicles</h1>
 
-<table *ngIf="vehicles">
+<table *ngIf="filteredVehicles">
 	<thead>
 		<tr>
 			<th>Vehicle Id</th>
@@ -24,7 +21,7 @@
 		</tr>
 	</thead>
 	<tbody>
-		<tr *ngFor="let vehicle of vehicles">
+		<tr *ngFor="let vehicle of filteredVehicles">
 			<td>{{ vehicle.vehicleId }}</td>
 			<td>{{ vehicle.regNo }}</td>
 			<td>{{ vehicle.connectionStatus }}</td>
@@ -33,5 +30,3 @@
 		</tr>
 	</tbody>
 </table>
-
-<button (click)="startPing()">Start Vehicle Ping Simulation</button>

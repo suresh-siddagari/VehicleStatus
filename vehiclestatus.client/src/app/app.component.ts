@@ -1,13 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { Component, OnInit, signal } from '@angular/core';
 import { interval, Observable, timer } from 'rxjs';
-
-interface WeatherForecast {
-	date: string;
-	temperatureC: number;
-	temperatureF: number;
-	summary: string;
-}
+import { CustomerVehicle } from '../models/ResponseModel';
 
 @Component({
 	selector: 'app-root',
@@ -15,34 +9,22 @@ interface WeatherForecast {
 	styleUrl: './app.component.css',
 })
 export class AppComponent implements OnInit {
-	public forecasts: WeatherForecast[] = [];
-	public vehicles: any = [];
+	public filteredVehicles: CustomerVehicle[] = [];
 
 	public customerFilter: string = '';
 	constructor(private http: HttpClient) {}
 
 	ngOnInit() {
-		this.getForecasts();
 		this.getVehicles();
-	}
-
-	getForecasts() {
-		this.http.get<WeatherForecast[]>('/weatherforecast').subscribe(
-			(result) => {
-				this.forecasts = result;
-			},
-			(error) => {
-				console.error(error);
-			}
-		);
 	}
 
 	getVehicles() {
 		// call the API to get the vehicles for every 1 minute
-		interval(1000).subscribe(() => {
+		interval(10000).subscribe(() => {
 			this.http.get<any[]>('/vehicle').subscribe(
 				(result) => {
-					this.vehicles = result;
+					const vehicles = result;
+					this.filterVehicles(vehicles);
 				},
 				(error) => {
 					console.error(error);
@@ -51,12 +33,16 @@ export class AppComponent implements OnInit {
 		});
 	}
 
+	//filter vehicles
+	filterVehicles(vehicles: CustomerVehicle[]) {
+		this.filteredVehicles = vehicles.filter((vehicle) => {
+			return vehicle.customerName.toLowerCase().includes(this.customerFilter.toLowerCase());
+		});
+	}
+
 	//start vehicle ping
 	startPing() {
 		this.http.get<any[]>('/vehicleping').subscribe();
-	}
-	filterTextChange(event: any) {
-		console.log(event.target.value);
 	}
 
 	title = 'vehiclestatus.client';

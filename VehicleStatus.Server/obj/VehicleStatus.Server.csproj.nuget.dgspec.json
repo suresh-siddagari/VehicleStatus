@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\GitRepos\\Suresh\\VehicleStatus\\VehicleStatus.Server\\VehicleStatus.Server.csproj": {}
+    "D:\\GitRepos\\Suresh\\VehicleStatus\\VehicleStatus.Server\\VehicleStatus.Server.csproj": {}
   },
   "projects": {
-    "d:\\GitRepos\\Suresh\\VehicleStatus\\VehicleStatus.Server\\VehicleStatus.Server.csproj": {
+    "D:\\GitRepos\\Suresh\\VehicleStatus\\VehicleStatus.Server\\VehicleStatus.Server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\GitRepos\\Suresh\\VehicleStatus\\VehicleStatus.Server\\VehicleStatus.Server.csproj",
+        "projectUniqueName": "D:\\GitRepos\\Suresh\\VehicleStatus\\VehicleStatus.Server\\VehicleStatus.Server.csproj",
         "projectName": "VehicleStatus.Server",
-        "projectPath": "d:\\GitRepos\\Suresh\\VehicleStatus\\VehicleStatus.Server\\VehicleStatus.Server.csproj",
+        "projectPath": "D:\\GitRepos\\Suresh\\VehicleStatus\\VehicleStatus.Server\\VehicleStatus.Server.csproj",
         "packagesPath": "C:\\Users\\sidsur01\\.nuget\\packages\\",
-        "outputPath": "d:\\GitRepos\\Suresh\\VehicleStatus\\VehicleStatus.Server\\obj\\",
+        "outputPath": "D:\\GitRepos\\Suresh\\VehicleStatus\\VehicleStatus.Server\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\sidsur01\\AppData\\Roaming\\NuGet\\NuGet.Config",

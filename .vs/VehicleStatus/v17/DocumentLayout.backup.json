@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "D:\\GitRepos\\Suresh\\VehicleStatus\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{7F53E344-C45C-4BDE-83B0-FC0EFA6157CF}|VehicleStatus.Server\\VehicleStatus.Server.csproj|d:\\gitrepos\\suresh\\vehiclestatus\\vehiclestatus.server\\controllers\\vehiclepingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F53E344-C45C-4BDE-83B0-FC0EFA6157CF}|VehicleStatus.Server\\VehicleStatus.Server.csproj|solutionrelative:vehiclestatus.server\\controllers\\vehiclepingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7F53E344-C45C-4BDE-83B0-FC0EFA6157CF}|VehicleStatus.Server\\VehicleStatus.Server.csproj|d:\\gitrepos\\suresh\\vehiclestatus\\vehiclestatus.server\\controllers\\vehiclecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7F53E344-C45C-4BDE-83B0-FC0EFA6157CF}|VehicleStatus.Server\\VehicleStatus.Server.csproj|solutionrelative:vehiclestatus.server\\controllers\\vehiclecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7F53E344-C45C-4BDE-83B0-FC0EFA6157CF}|VehicleStatus.Server\\VehicleStatus.Server.csproj|d:\\gitrepos\\suresh\\vehiclestatus\\vehiclestatus.server\\services\\vehiclepingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7F53E344-C45C-4BDE-83B0-FC0EFA6157CF}|VehicleStatus.Server\\VehicleStatus.Server.csproj|solutionrelative:vehiclestatus.server\\services\\vehiclepingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F53E344-C45C-4BDE-83B0-FC0EFA6157CF}|VehicleStatus.Server\\VehicleStatus.Server.csproj|d:\\gitrepos\\suresh\\vehiclestatus\\vehiclestatus.server\\controllers\\vehiclepingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F53E344-C45C-4BDE-83B0-FC0EFA6157CF}|VehicleStatus.Server\\VehicleStatus.Server.csproj|solutionrelative:vehiclestatus.server\\controllers\\vehiclepingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7F53E344-C45C-4BDE-83B0-FC0EFA6157CF}|VehicleStatus.Server\\VehicleStatus.Server.csproj|d:\\gitrepos\\suresh\\vehiclestatus\\vehiclestatus.server\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -78,7 +78,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 263,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -101,20 +101,25 @@
               "Name": "ST:0:0:{cf577b8c-4134-11d2-83e5-00c04f9902c1}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "VehiclePingController.cs",
               "DocumentMoniker": "D:\\GitRepos\\Suresh\\VehicleStatus\\VehicleStatus.Server\\Controllers\\VehiclePingController.cs",
               "RelativeDocumentMoniker": "VehicleStatus.Server\\Controllers\\VehiclePingController.cs",
               "ToolTip": "D:\\GitRepos\\Suresh\\VehicleStatus\\VehicleStatus.Server\\Controllers\\VehiclePingController.cs",
               "RelativeToolTip": "VehicleStatus.Server\\Controllers\\VehiclePingController.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAgwBMAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-26T12:37:17.473Z"
+              "WhenOpened": "2025-01-26T12:37:17.473Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "VehiclePingService.cs",
               "DocumentMoniker": "D:\\GitRepos\\Suresh\\VehicleStatus\\VehicleStatus.Server\\Services\\VehiclePingService.cs",
               "RelativeDocumentMoniker": "VehicleStatus.Server\\Services\\VehiclePingService.cs",
@@ -174,7 +179,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "VehicleController.cs",
               "DocumentMoniker": "D:\\GitRepos\\Suresh\\VehicleStatus\\VehicleStatus.Server\\Controllers\\VehicleController.cs",
               "RelativeDocumentMoniker": "VehicleStatus.Server\\Controllers\\VehicleController.cs",
@@ -304,10 +309,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
               "WhenOpened": "2025-01-25T09:02:40.975Z"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             }
           ]
         }
