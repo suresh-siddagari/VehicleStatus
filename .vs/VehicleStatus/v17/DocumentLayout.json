@@ -127,8 +127,7 @@
               "RelativeToolTip": "VehicleStatus.Server\\Services\\VehiclePingService.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAgwBUAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-26T11:57:57.458Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-26T11:57:57.458Z"
             },
             {
               "$type": "Document",
@@ -140,8 +139,7 @@
               "RelativeToolTip": "VehicleStatus.Server\\Models\\VehicelCustomerDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-25T08:53:29.055Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-25T08:53:29.055Z"
             },
             {
               "$type": "Document",
@@ -153,8 +151,7 @@
               "RelativeToolTip": "VehicleStatus.Server\\Interfaces\\IVehicleService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-25T08:43:12.614Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-25T08:43:12.614Z"
             },
             {
               "$type": "Document",
@@ -166,8 +163,7 @@
               "RelativeToolTip": "VehicleStatus.Server\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-25T08:42:18.003Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-25T08:42:18.003Z"
             },
             {
               "$type": "Document",
@@ -179,8 +175,7 @@
               "RelativeToolTip": "VehicleStatus.Server\\Services\\VehicleService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwBQAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-25T08:31:54.428Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-25T08:31:54.428Z"
             },
             {
               "$type": "Document",
@@ -192,8 +187,7 @@
               "RelativeToolTip": "VehicleStatus.Server\\Controllers\\VehicleController.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAgwBgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-25T08:30:04.239Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-25T08:30:04.239Z"
             },
             {
               "$type": "Document",
@@ -205,8 +199,7 @@
               "RelativeToolTip": "vehiclestatus.client\\src\\app\\app.component.ts",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2025-01-25T08:28:13.562Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-25T08:28:13.562Z"
             },
             {
               "$type": "Document",
@@ -218,8 +211,7 @@
               "RelativeToolTip": "vehiclestatus.client\\aspnetcore-https.js",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-01-25T08:28:01.625Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-25T08:28:01.625Z"
             },
             {
               "$type": "Document",
@@ -231,8 +223,7 @@
               "RelativeToolTip": "VehicleStatus.Server\\SeedData.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-25T08:17:08.738Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-25T08:17:08.738Z"
             },
             {
               "$type": "Document",
@@ -244,8 +235,7 @@
               "RelativeToolTip": "VehicleStatus.Server\\Controllers\\WeatherForecastController.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAADwvxYAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-25T08:13:11.781Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-25T08:13:11.781Z"
             },
             {
               "$type": "Document",
@@ -257,8 +247,7 @@
               "RelativeToolTip": "VehicleStatus.Server\\Interfaces\\IVehiclePingService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-26T12:16:39.142Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-26T12:16:39.142Z"
             },
             {
               "$type": "Document",
@@ -270,8 +259,7 @@
               "RelativeToolTip": "vehiclestatus.client\\src\\proxy.conf.js",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-01-25T09:00:00.753Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-25T09:00:00.753Z"
             },
             {
               "$type": "Document",
@@ -283,8 +271,7 @@
               "RelativeToolTip": "VehicleStatus.Server\\Models\\Vehicle.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-25T08:15:14.248Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-25T08:15:14.248Z"
             },
             {
               "$type": "Document",
@@ -296,8 +283,7 @@
               "RelativeToolTip": "VehicleStatus.Server\\Models\\Customer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-25T08:13:55.944Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-25T08:13:55.944Z"
             },
             {
               "$type": "Document",
@@ -321,8 +307,7 @@
               "RelativeToolTip": "VehicleStatus.Server\\VehicleStatus.Server.http",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2025-01-25T09:02:40.975Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-25T09:02:40.975Z"
             }
           ]
         }
