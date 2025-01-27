@@ -16,5 +16,5 @@ table {
 .actions {
 	display: flex;
 	justify-content: center;
-	gap: 250px;
+	gap: 50px;
 }
